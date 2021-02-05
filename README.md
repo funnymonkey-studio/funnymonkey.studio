@@ -1,2 +1,3 @@
-# funnymonkey.studio
-MONKE
+
+
+# funnymonkey.studio & snek
