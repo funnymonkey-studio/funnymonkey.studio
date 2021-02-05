@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif !important;
+    color: white !important;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    margin: 0;
+}
+
+input, button {
+    margin-top: 5px !important;
+    margin-bottom: 5px!important;
+    border: none;
+    background-color: white;
+    height: 3vh;
+    width: 12.5vw;
+    border-radius: 2px;
+    box-shadow: 0 0 2px 0 rgb(85,85,85);
+}
+
+*:focus {
+    outline: none;
+}
+
+h1, h3 {
+    text-shadow: 0 0 5px rgb(125,125,125);
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.vertical-center {
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+input[type=button] {
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+.navbar {
+    width: 100%;
+    height: 6vh;
+    background: rgb(45,45,45);
+    box-shadow: 0 0 4px 0 rgb(35,35,35);
+    display: flex;
+}
+
+.navbar > form {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar > form > input {
+    background: none !important;
+    box-shadow: none !important;
+    height: 100%;
+    width: 10vw;
+    color: white;
+    margin: none;
+}
+
+.header {
+    width: 100%;
+    height: 300px;
+    background: white;
+    box-shadow: 0 0 4px 0 rgb(35,35,35);
+    background-image: linear-gradient(45deg, #fad0c4 0%, #ffd1ff 100%);
+}
