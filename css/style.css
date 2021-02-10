@@ -3,11 +3,19 @@
 body {
     font-family: 'Open Sans', sans-serif !important;
     color: white !important;
+    animation: example 5s infinite alternate;
     background-color: #4158D0;
     background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
     margin: 0;
 }
 
+}
+@keyframes example {
+    0%   {background-color: #FFB7B2;}
+    25%  {background-color: #FFDAC1;}
+    50%  {background-color: #E2F0CB;}
+    100% {background-color: #B5EAD7;}
+}
 input, button {
     margin-top: 5px !important;
     margin-bottom: 5px!important;
